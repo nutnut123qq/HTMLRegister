@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up - Đăng kí</title>
+    <link rel="stylesheet" href="register.css">
 </head>
 <body>
     <div class="header_info">
@@ -20,7 +21,7 @@
                 <img src="icon/mail.png" alt="">
             </div>
             <div class="mail_header-info">
-                <a href="mamgh789@gmail.com">mamgh789@gmail.com</a>
+                <a href="mailto:mamgh789@gmail.com">mamgh789@gmail.com</a>
             </div>
         </div>
         <div class="language_header">
@@ -55,63 +56,73 @@
             <a href="cart.html">
                 <div class="header_bar-cart-icon">
                     <img src="icon/cart.svg" alt="">
-                </div> </a>
-
+                </div>
+            </a>
         </div>
         <div class="header_bar-signUp">
             <a href="signup.html">
-                <p>Sign Up</p></a>
+                <p>Sign Up</p>
+            </a>
         </div>
         <div class="header_bar-signIn">
-            <a href="signup.html">
-                <p>Sign In</p></a>
+            <a href="signin.html">
+                <p>Sign In</p>
+            </a>
         </div>
-        
-        <div class="body_signup">
-            <div class="title">
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 body_signup">
                 <h1> Đăng Kí</h1>
-            </div>
-            <div class="info">
                 <p>Đăng kí và học tập</p>
             </div>
         </div>
-        
-        <div class="body_form">
-            <div class="body_form-img">
+
+        <div class="row body_form">
+            <div class="col-md-6 body_form-img">
                 <img src="icon/signup_banner.png" alt="">
             </div>
-
-            <div class="body_form-input">
+            <div class="col-md-6 body_form-input">
                 <form action="" method="post">
                     <div class="body_form-input-firstname">
                         <label for="fname">Tên</label>
                         <div class="input_form">
-                            <img src="icon/user.png" alt="">
+                          <span class="iconstyle">
+                            <img src="icon/user.png" class="input_icon" alt="">
+                          </span>
+                            
                             <input type="text" placeholder="Tên" id="fname">
                         </div>
                     </div>
                     <div class="body_form-input-lastname">
                         <label for="lname">Họ</label>
                         <div class="input_form">
-                            <img src="icon/user.png" alt="">
+                          <span class="iconstyle">                            
+                            <img src="icon/user.png" class="input_icon" alt="">
+                          </span>
                             <input type="text" placeholder="Họ" id="lname">
                         </div>
                     </div>
                     <div class="body_form-input-email">
                         <label for="em">Email</label>
                         <div class="input_form">
-                            <img src="icon/logo_email.svg" alt="">
+                          <span class="iconstyle">
+                             <img src="icon/logo_email.svg" class="input_icon" alt="">
+                          </span>
+                            
                             <input type="email" placeholder="Email" id="em">
                         </div>
                     </div>
                     <div class="body_form-input-password">
                         <label for="pa">Mật Khẩu</label>
                         <div class="input_form">
-                            <img src="icon/logo_password.svg" alt="">
+                          <span class="iconstyle">                            
+                               <img src="icon/logo_password.svg" class="input_icon" alt="">
+                          </span>
                             <input type="password" placeholder="Mật Khẩu" id="pa">
                         </div>
                     </div>                    
-             
                     <div class="body_form-input-submit">
                         <input type="submit" value="Đăng Ký">
                     </div>
@@ -121,61 +132,62 @@
                 </form>
             </div>
         </div>
-        <div class="footer_content">
-            <div class="footer-lienket">
-                <div class="footer-lienket-title">
-                    <h3>Study and topic, any thing with </h3>
-                </div>
-                <div class="footer-lienket-info">
-                    <ul>
-                        <li><a href="facebook.com"><img src="icon/facebook.svg" alt=""></a></li>
-                        <li><a href="instagram.com"><img src="icon/instagram.svg" alt=""></a></li>
-                        <li><a href="twitter.com"><img src="icon/twitter.svg" alt=""></a></li>
-                        <li><a href="youtube.com"><img src="icon/youtube.svg" alt=""></a></li>
-                    </ul>
-                </div>
+    </div>
+
+    <div class="footer_content">
+        <div class="footer-lienket">
+            <div class="footer-lienket-title">
+                <h3>Study and topic, any thing with </h3>
             </div>
-            <div class="footer-list">
-                <div class="footer-list-title">
-                    <h3>Danh mục hàng đầu</h3>
-                </div>
-                <div class="footer-list-info">
-                    <ul>
-                        <li><a href="list.html?id=1">Kì 1</a></li>
-                        <li><a href="list.html?id=1">Kì 1</a></li>
-                        <li><a href="list.html?id=1">Kì 1</a></li>
-                        <li><a href="list.html?id=1">Kì 1</a></li>
-                        <li><a href="list.html?id=1">Bài tập</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-favorite">
-                <div class="footer-favorite-title">
-                    <h3>Liên kết hữu ích</h3>
-                </div>
-                <div class="footer-favorite-info">
-                    <ul>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Login</a></li>
-                        <li><a href="">SignUp</a></li>
-                    </ul>
-                </div>
+            <div class="footer-lienket-info">
+                <ul>
+                    <li><a href="facebook.com"><img src="icon/facebook.svg" alt=""></a></li>
+                    <li><a href="instagram.com"><img src="icon/instagram.svg" alt=""></a></li>
+                    <li><a href="twitter.com"><img src="icon/twitter.svg" alt=""></a></li>
+                    <li><a href="youtube.com"><img src="icon/youtube.svg" alt=""></a></li>
+                </ul>
             </div>
         </div>
-        <footer>
-            <div class="footer-logo">
-                <img src="icon/logo.png" alt="">
+        <div class="footer-list">
+            <div class="footer-list-title">
+                <h3>Danh mục hàng đầu</h3>
             </div>
-            <div class="footer-info">
-                <p>© 2024 Study and topic, any thing with. All Rights Reserved.</p>
+            <div class="footer-list-info">
+                <ul>
+                    <li><a href="list.html?id=1">Kì 1</a></li>
+                    <li><a href="list.html?id=1">Kì 1</a></li>
+                    <li><a href="list.html?id=1">Kì 1</a></li>
+                    <li><a href="list.html?id=1">Kì 1</a></li>
+                    <li><a href="list.html?id=1">Bài tập</a></li>
+                </ul>
             </div>
-            <div class="language_footer">
-                <select name="" id="">
-                    <option value="VIE">Vietnamese</option>
-                    <option value="ENG">English</option>
-                </select>
+        </div>
+        <div class="footer-favorite">
+            <div class="footer-favorite-title">
+                <h3>Liên kết hữu ích</h3>
             </div>
-        </footer>
+            <div class="footer-favorite-info">
+                <ul>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Login</a></li>
+                    <li><a href="">SignUp</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
+    <footer>
+        <div class="footer-logo">
+            <img src="icon/logo.png" alt="">
+        </div>
+        <div class="footer-info">
+            <p>© 2024 Study and topic, any thing with. All Rights Reserved.</p>
+        </div>
+        <div class="language_footer">
+            <select name="" id="">
+                <option value="VIE">Vietnamese</option>
+                <option value="ENG">English</option>
+            </select>
+        </div>
+    </footer>
 </body>
 </html>
